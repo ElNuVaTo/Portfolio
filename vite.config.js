@@ -11,9 +11,27 @@ export default defineConfig({
   },
 
   resolve: {
-    alias: {
-      "./runtimeConfig": "./runtimeConfig.browser",
-      "@": path.resolve(__dirname, "./src"),
+    alias: [
+      {
+        find: "@",
+        replacement: path.resolve(__dirname, "./src"),
+      },
+      {
+        find: "./runtimeConfig",
+        replacement: "./runtimeConfig.browser",
+      },
+    ],
+  },
+
+
+  optimizeDeps: {
+    esbuildOptions: {
+      // Node.js global to browser globalThis
+      define: {
+        global: "globalThis", //<-- AWS SDK 
+      },
     },
   },
+  
+
 });
