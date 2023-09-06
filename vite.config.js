@@ -23,6 +23,10 @@ export default defineConfig({
     ],
   },
 
+  build: {
+    outDir: "build", // Asegúrate de que coincida con la ubicación de tus archivos generados
+  },
+
 
   optimizeDeps: {
     esbuildOptions: {
