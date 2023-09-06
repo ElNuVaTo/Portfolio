@@ -12,6 +12,7 @@ export default defineConfig({
 
   resolve: {
     alias: {
+      "./runtimeConfig": "./runtimeConfig.browser",
       "@": path.resolve(__dirname, "./src"),
     },
   },
