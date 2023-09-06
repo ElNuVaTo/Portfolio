@@ -22,20 +22,4 @@ export default defineConfig({
       },
     ],
   },
-
-  build: {
-    outDir: "build", // Asegúrate de que coincida con la ubicación de tus archivos generados
-  },
-
-
-  optimizeDeps: {
-    esbuildOptions: {
-      // Node.js global to browser globalThis
-      define: {
-        global: "globalThis", //<-- AWS SDK 
-      },
-    },
-  },
-  
-
 });
