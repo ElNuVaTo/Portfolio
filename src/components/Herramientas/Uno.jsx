@@ -1,4 +1,3 @@
-/* eslint-disable react-refresh/only-export-components */
 import { styled } from "styled-components";
 
 import CuadradoBig from "@/utils/CuadradoBig";
@@ -36,26 +35,23 @@ const CaracteristicasPrincipales = styled.div`
   }
 `;
 
-const B_Dos = () => {
+const Uno = () => {
   return (
     <>
       <CuadradoBig colorBackground="#E0E0E0">
-        <ID>#2</ID>
-
+        <ID>#1</ID>
         <ContenedorTexto>
-          <Titulo>¿Encuentras difícil seleccionar tipografías?</Titulo>
-
+          <Titulo>¿No sabes donde empezar en promagacion?</Titulo>
           <CaracteristicasPrincipales>
-            <p>🔤 Explora tipografías de Google Fonts.</p>
-            <p>📅 Genera combinaciones aleatorias.</p>
-            <p>✨ Encuentra inspiración para tu diseño.</p>
+            <p>🛣️ Explora rutas de aprendizaje en programación.</p>
+            <p>📆 Planifica tu desarrollo profesional.</p>
+            <p>🔄 Actualiza tus habilidades constantemente.</p>
           </CaracteristicasPrincipales>
         </ContenedorTexto>
-
-        <Links href="https://fontjoy.com/">https://fontjoy.com/</Links>
+        <Links href="https://roadmap.sh/">https://roadmap.sh</Links>
       </CuadradoBig>
     </>
   );
 };
 
-export default B_Dos;
+export default Uno;

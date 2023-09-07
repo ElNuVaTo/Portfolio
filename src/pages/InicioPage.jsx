@@ -8,10 +8,12 @@ import Spotify from "@/components/Spotify/Spotify";
 import Aprendiendo from "@/components/Habilidades/Aprendiendo";
 
 import Proyectos from "@/components/Proyectos/Proyectos";
-import A_Uno from "@/components/Herramientas/a_Uno";
-import B_Dos from "@/components/Herramientas/B_Dos";
-import C_Tres from "@/components/Herramientas/C_Tres";
 import Enlaces from "@/components/Proyectos/Enlaces";
+
+import Uno from "@/components/Herramientas/Uno";
+import Dos from "@/components/Herramientas/Dos";
+import Tres from "@/components/Herramientas/Tres";
+
 
 const Main = styled.main`
   display: flex;
@@ -66,9 +68,9 @@ const InicioPage = () => {
         </ProyectosAndEnlaces>
 
         <Herramientas>
-          <A_Uno />
-          <B_Dos />
-          <C_Tres />
+          <Uno />
+          <Dos />
+          <Tres />
         </Herramientas>
       </Main>
     </>

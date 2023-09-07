@@ -1,4 +1,3 @@
-/* eslint-disable react-refresh/only-export-components */
 import { styled } from "styled-components";
 
 import CuadradoBig from "@/utils/CuadradoBig";
@@ -36,23 +35,28 @@ const CaracteristicasPrincipales = styled.div`
   }
 `;
 
-const A_Uno = () => {
+const Tres = () => {
   return (
     <>
       <CuadradoBig colorBackground="#E0E0E0">
-        <ID>#1</ID>
+        <ID>#3</ID>
+
         <ContenedorTexto>
-          <Titulo>¿No sabes donde empezar en promagacion?</Titulo>
+          <Titulo>¿Quieres crear paletas de colores asombrosas?</Titulo>
+
           <CaracteristicasPrincipales>
-            <p>🛣️ Explora rutas de aprendizaje en programación.</p>
-            <p>📆 Planifica tu desarrollo profesional.</p>
-            <p>🔄 Actualiza tus habilidades constantemente.</p>
+            <p>🌈 Explora paletas de colores creativas.</p>
+            <p>🎨 Crea tus propias combinaciones.</p>
+            <p>📊 Analiza tendencias de colores.</p>
           </CaracteristicasPrincipales>
         </ContenedorTexto>
-        <Links href="https://roadmap.sh/">https://roadmap.sh</Links>
+
+        <Links href="https://color.adobe.com/es/create/color-wheel">
+          https://color.adobe.com/es
+        </Links>
       </CuadradoBig>
     </>
   );
 };
 
-export default A_Uno;
+export default Tres;

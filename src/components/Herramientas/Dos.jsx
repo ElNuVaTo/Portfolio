@@ -1,4 +1,3 @@
-/* eslint-disable react-refresh/only-export-components */
 import { styled } from "styled-components";
 
 import CuadradoBig from "@/utils/CuadradoBig";
@@ -36,28 +35,26 @@ const CaracteristicasPrincipales = styled.div`
   }
 `;
 
-const C_Tres = () => {
+const Dos = () => {
   return (
     <>
       <CuadradoBig colorBackground="#E0E0E0">
-        <ID>#3</ID>
+        <ID>#2</ID>
 
         <ContenedorTexto>
-          <Titulo>¿Quieres crear paletas de colores asombrosas?</Titulo>
+          <Titulo>¿Encuentras difícil seleccionar tipografías?</Titulo>
 
           <CaracteristicasPrincipales>
-            <p>🌈 Explora paletas de colores creativas.</p>
-            <p>🎨 Crea tus propias combinaciones.</p>
-            <p>📊 Analiza tendencias de colores.</p>
+            <p>🔤 Explora tipografías de Google Fonts.</p>
+            <p>📅 Genera combinaciones aleatorias.</p>
+            <p>✨ Encuentra inspiración para tu diseño.</p>
           </CaracteristicasPrincipales>
         </ContenedorTexto>
 
-        <Links href="https://color.adobe.com/es/create/color-wheel">
-          https://color.adobe.com/es
-        </Links>
+        <Links href="https://fontjoy.com/">https://fontjoy.com/</Links>
       </CuadradoBig>
     </>
   );
 };
 
-export default C_Tres;
+export default Dos;
