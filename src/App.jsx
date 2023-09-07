@@ -5,7 +5,7 @@ import InicioPage from "@/pages/InicioPage";
 const App = () => {
   return (
     <>
-      <BrowserRouter basename="/PortafolioV5">
+      <BrowserRouter basename="/Portfolio">
         <Routes>
           <Route path="/" element={<InicioPage />} />
         </Routes>
