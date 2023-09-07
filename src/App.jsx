@@ -1,13 +1,13 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes } from "react-router-dom";
 
-import InicioPage from "./pages/InicioPage";
+// import InicioPage from "./pages/InicioPage";
 
 const App = () => {
   return (
     <>
       <BrowserRouter basename="/">
         <Routes>
-          <Route path="/" element={<InicioPage />} />
+          {/* <Route path="/" element={<InicioPage />} /> */}
         </Routes>
       </BrowserRouter>
     </>
