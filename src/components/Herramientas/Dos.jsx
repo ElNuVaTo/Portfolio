@@ -38,7 +38,7 @@ const CaracteristicasPrincipales = styled.div`
 const Dos = () => {
   return (
     <>
-      <CuadradoBig colorBackground="#E0E0E0">
+      <CuadradoBig colorBackground="#cfcfcf">
         <ID>#2</ID>
 
         <ContenedorTexto>

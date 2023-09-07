@@ -24,15 +24,16 @@ const Descripcion = styled.p`
 
   strong {
     font-size: 16.5px;
+    margin-bottom: 5px;
   }
 `;
 
 const SobreMi = () => {
   return (
     <>
-      <RectanguloBig colorBackground="#8AADED">
+      <RectanguloBig colorBackground="#d3e3fb">
         <Nombre>Angelo Amaro Alcaino Veloso</Nombre>
-        <Puesto>Desarrollador FullStack MERN | MongoDB | Express | React | NodeJS</Puesto>
+        <Puesto>Desarrollador FullStack</Puesto>
 
         <ContenedorDescripcion>
           <Descripcion>

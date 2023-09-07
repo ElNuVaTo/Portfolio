@@ -38,7 +38,7 @@ const CaracteristicasPrincipales = styled.div`
 const Uno = () => {
   return (
     <>
-      <CuadradoBig colorBackground="#E0E0E0">
+      <CuadradoBig colorBackground="#cfcfcf">
         <ID>#1</ID>
         <ContenedorTexto>
           <Titulo>¿No sabes donde empezar en promagacion?</Titulo>

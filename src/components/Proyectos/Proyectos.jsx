@@ -52,7 +52,7 @@ const Image = styled.a`
 const Proyectos = () => {
   return (
     <>
-      <RectanguloBig colorBackground="#8AADED">
+      <RectanguloBig colorBackground="#d3e3fb">
         <Nombre>Útopia 🏡</Nombre>
         <Puesto>Proyecto destacado</Puesto>
 
@@ -71,7 +71,7 @@ const Proyectos = () => {
           </Descripcion>
         </ContenedorDescripcion>
 
-        <Image href="" target="_blank">
+        <Image href="https://github.com/grupo-de-practica/front-client" target="_blank">
           <img src={IconsExternal} alt="Icono para un enlace externo" />
         </Image>
       </RectanguloBig>

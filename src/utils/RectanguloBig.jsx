@@ -1,6 +1,7 @@
 import { styled } from "styled-components";
 
 const Cuadrado = styled.div`
+
   width: 100%;
   max-width: calc(600px + 40px);
   height: 300px;
@@ -9,6 +10,13 @@ const Cuadrado = styled.div`
   padding: 20px;
   position: relative;
   overflow: hidden;
+
+
+  @media (max-width: 700px) {
+    height: max-content ;
+    width: 300px;
+}
+
 `;
 
 const RectanguloBig = ({ colorBackground, children }) => { 
