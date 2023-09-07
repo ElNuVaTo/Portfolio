@@ -6,7 +6,7 @@ import path from "path";
 export default defineConfig({
   plugins: [react()],
 
-  base: "/",
+  base: "/PortafolioV5",
 
   server: {
     host: "0.0.0.0",

@@ -5,10 +5,8 @@ import { BrowserRouter, Routes } from "react-router-dom";
 const App = () => {
   return (
     <>
-      <BrowserRouter basename="/">
-        <Routes>
-          {/* <Route path="/" element={<InicioPage />} /> */}
-        </Routes>
+      <BrowserRouter basename="/PortafolioV5">
+        <Routes>{/* <Route path="/" element={<InicioPage />} /> */}</Routes>
       </BrowserRouter>
     </>
   );
